@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kibana Dashboards</title>
+</head>
+<body>
+    <h1>Kibana Dashboards</h1>
+    
+    {% if dashboards %}
+        <ul>
+            {% for dashboard in dashboards %}
+                <li>
+                    <a href="{{ url_for('dashboard', dashboard_id=dashboard.id) }}">
+                        {{ dashboard.attributes.title }}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No dashboards found.</p>
+    {% endif %}
+</body>
+</html>
+

@@ -1,0 +1,158 @@
+[
+    {
+      "customer_id": 1,
+      "age": 55,
+      "gender": "Male",
+      "purchase": {
+        "item": "Blouse",
+        "category": "Clothing",
+        "amount_usd": 53
+      },
+      "location": "Kentucky",
+      "preferences": {
+        "size": "L",
+        "color": "Gray",
+        "season": "Winter"
+      },
+      "feedback": {
+        "review_rating": 3.1,
+        "subscription_status": "Yes"
+      },
+      "transaction_details": {
+        "payment_method": "Credit Card",
+        "shipping_type": "Express",
+        "discount_applied": true,
+        "promo_code_used": true
+      },
+      "historical_data": {
+        "previous_purchases": 14,
+        "preferred_payment_method": "Venmo",
+        "purchase_frequency": "Fortnightly"
+      }
+    },
+    {
+      "customer_id": 2,
+      "age": 19,
+      "gender": "Male",
+      "purchase": {
+        "item": "Sweater",
+        "category": "Clothing",
+        "amount_usd": 64
+      },
+      "location": "Maine",
+      "preferences": {
+        "size": "L",
+        "color": "Maroon",
+        "season": "Winter"
+      },
+      "feedback": {
+        "review_rating": 3.1,
+        "subscription_status": "Yes"
+      },
+      "transaction_details": {
+        "payment_method": "Bank Transfer",
+        "shipping_type": "Express",
+        "discount_applied": true,
+        "promo_code_used": true
+      },
+      "historical_data": {
+        "previous_purchases": 2,
+        "preferred_payment_method": "Cash",
+        "purchase_frequency": "Fortnightly"
+      }
+    },
+    {
+      "customer_id": 3,
+      "age": 30,
+      "gender": "Female",
+      "purchase": {
+        "item": "Dress",
+        "category": "Clothing",
+        "amount_usd": 85
+      },
+      "location": "California",
+      "preferences": {
+        "size": "M",
+        "color": "Blue",
+        "season": "Summer"
+      },
+      "feedback": {
+        "review_rating": 4.8,
+        "subscription_status": "No"
+      },
+      "transaction_details": {
+        "payment_method": "PayPal",
+        "shipping_type": "Standard",
+        "discount_applied": false,
+        "promo_code_used": false
+      },
+      "historical_data": {
+        "previous_purchases": 10,
+        "preferred_payment_method": "PayPal",
+        "purchase_frequency": "Monthly"
+      }
+    },
+    {
+      "customer_id": 4,
+      "age": 40,
+      "gender": "Male",
+      "purchase": {
+        "item": "Shoes",
+        "category": "Footwear",
+        "amount_usd": 120
+      },
+      "location": "Texas",
+      "preferences": {
+        "size": "XL",
+        "color": "Black",
+        "season": "Fall"
+      },
+      "feedback": {
+        "review_rating": 4.0,
+        "subscription_status": "Yes"
+      },
+      "transaction_details": {
+        "payment_method": "Credit Card",
+        "shipping_type": "Express",
+        "discount_applied": true,
+        "promo_code_used": false
+      },
+      "historical_data": {
+        "previous_purchases": 20,
+        "preferred_payment_method": "Credit Card",
+        "purchase_frequency": "Weekly"
+      }
+    },
+    {
+      "customer_id": 5,
+      "age": 23,
+      "gender": "Female",
+      "purchase": {
+        "item": "Handbag",
+        "category": "Accessories",
+        "amount_usd": 45
+      },
+      "location": "Florida",
+      "preferences": {
+        "size": "One Size",
+        "color": "Red",
+        "season": "Spring"
+      },
+      "feedback": {
+        "review_rating": 4.5,
+        "subscription_status": "No"
+      },
+      "transaction_details": {
+        "payment_method": "Debit Card",
+        "shipping_type": "Standard",
+        "discount_applied": true,
+        "promo_code_used": true
+      },
+      "historical_data": {
+        "previous_purchases": 5,
+        "preferred_payment_method": "Debit Card",
+        "purchase_frequency": "Quarterly"
+      }
+    }
+  ]
+  

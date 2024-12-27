@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ dashboard.title }}</title>
+</head>
+<body>
+
+    <h1>{{ dashboard.title }}</h1>
+    <p>{{ dashboard.description }}</p>
+
+    <h2>Dashboard Visualization</h2>
+    <!-- Embed the Kibana dashboard in an iframe -->
+    <iframe src="{{ dashboard_url }}" width="90%" height="500px"></iframe>
+
+</body>
+</html>
+
